@@ -1,0 +1,55 @@
+i {
+    color: #A7490B;
+}
+
+button {
+    padding: 10px; 
+    background-color: #7fff00;
+    color: #A7490B;
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;  
+}
+
+button:hover {
+    border-radius: 0px;
+    background-color: #8a2be2;
+    cursor: pointer;
+    transition: 4s;
+}
+
+div.linux {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+div.infoLinux {
+    height: 0px;
+    overflow: hidden;
+    transition: 4s;
+}
+
+div.linux:hover div.infoLinux {
+    height: 188px;
+}
+
+.botonWindows {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+.botonMac {
+    position: absolute;
+    left: 332px;
+    top: 100px;
+}
+
+.botonesLinux {
+    margin-top: 10px;
+}
+
+
